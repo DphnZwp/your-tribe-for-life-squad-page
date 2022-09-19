@@ -1,13 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  scroll-behavior: smooth;
-}
-
 :root {
   /*========== Colors ==========*/
   --header-color: #d9d9d9;
@@ -31,6 +22,16 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
 
 /* GENERAL */
 ul {
