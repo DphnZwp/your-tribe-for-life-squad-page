@@ -110,7 +110,8 @@ header {
 }
 
 .header__wrapper {
-  background-color: var(--header-color);
+  /* background-color: var(--header-color); */
+  background-image: url(./img/background.png);
 }
 
 .header--title {
