@@ -58,61 +58,15 @@
             </div>
             <img class="remote-control__logo" src="/philips-logo.svg" alt="" />
           </li>
+          {#each data.documents as data}
           <li class="laptop">
+            <h2>{data.data.name}</h2>
+            <img class="laptop__github-img" src="{data.data.githubimage.url}" alt="">
             <figure class="laptop__img--wrapper">
               <img src="./img/laptop-blue.svg" alt="" class="laptop__img" />
             </figure>
           </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-purple.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-blue.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-blue.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-purple.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-blue.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-blue.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-purple.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-blue.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-blue.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
-          <li class="laptop">
-            <figure class="laptop__img--wrapper">
-              <img src="./img/laptop-purple.svg" alt="" class="laptop__img" />
-            </figure>
-          </li>
+          {/each}
         </ul>
       </div>
     </div>

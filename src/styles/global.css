@@ -155,6 +155,9 @@ header {
   justify-content: center;  
 }
 
+.laptop__img--wrapper {
+  position: absolute;
+}
 
 .remote__img{
   max-height: 170px;
