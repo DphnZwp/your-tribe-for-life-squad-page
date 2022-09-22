@@ -1,4 +1,5 @@
 <script>
+  // import { goto } from "$app/navigation"
   export let data;
   console.log(data.documents);
 
@@ -8,6 +9,7 @@
 
   const nextImage = () => {
     currentSlideItem = (currentSlideItem + 1) % images.length;
+    // goto('/')
   };
 
   const prevImage = () => {
@@ -15,6 +17,7 @@
       currentSlideItem = (currentSlideItem - 1) % images.length;
     } else {
       currentSlideItem = images.length - 1;
+      // goto('/')
     }
   };
 
@@ -28,7 +31,7 @@
 <main>
   <section class="header__wrapper">
     <header class="flex">
-      <h1 class="header--title">FDND Squad</h1>
+      <h1 class="header--title">FDND SQUAD</h1>
       <section class="screen__wrapper">
         <figure class="screen__img--container">
           {#each [images[currentSlideItem]] as data (currentSlideItem)}
@@ -50,7 +53,7 @@
           Dit zijn de <span class="text--purple">FDND Studenten</span>
         </h2>
         <ul class="laptop__list">
-          <li class="laptop">
+          <!-- <li class="laptop">
             <div class="remote__container">
               <h2 class="remote__title">FDND Studenten afstandsbediening</h2>
               <div class="btn__container">
@@ -65,7 +68,7 @@
               </div>
               <img src="/philips-logo.svg" alt="" class="remote__img" />
             </div>
-          </li>
+          </li> -->
 
           <li class="laptop remote ">
             <div class="remote-control">
@@ -107,5 +110,5 @@
       </div>
     </div>
   </section>
-  <pre>{JSON.stringify(data.documents, null, 2)}</pre>
+  <!-- <pre>{JSON.stringify(data.documents, null, 2)}</pre> -->
 </main>

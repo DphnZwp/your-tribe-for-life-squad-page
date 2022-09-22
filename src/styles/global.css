@@ -72,21 +72,6 @@ span {
   line-height: 1.25;
 }
 
-h1 {
-  margin-bottom: 0.5em;
-  font-size: 3.75rem;
-  text-align: center;
-}
-
-h2 {
-  font-size: 1.75rem;
-}
-
-p {
-  font-size: 1.1875rem;
-}
-
-
 .flex {
   display: flex;
 }
@@ -115,8 +100,9 @@ header {
 }
 
 .header--title {
-  font-size: 32px;
-  margin-bottom: var(--mb-2);
+  margin-top: .5em;
+  font-size: 4rem;
+  margin-bottom: var(--mb-2-5);
 }
 .screen__wrapper {
   width: 100%;
@@ -137,6 +123,7 @@ header {
 /* LAPTOPS */
 .container {
   padding: var(--mb-1) 0;
+  background-image: url(./img/background.png);
 }
 
 .laptop__list {
@@ -148,12 +135,6 @@ header {
 
 .laptop {
     padding: var(--mb-0-5);
-    
-}
-
-.remote{
-  display: flex;
-  justify-content: center;  
 }
 
 .laptop__github-img {
@@ -167,24 +148,25 @@ header {
   position: relative;
   display: flex;
   justify-content: center;
-  margin-bottom: 0.5em;
 }
 
-.remote__img{
+.remote{
+  display: flex;
+  justify-content: center;  
+}
+
+.remote__img {
   max-height: 170px;
 }
 
-.laptop__img{
+.laptop__img {
   width: 100%;
   
 }
 
-#laptops h2{
+#laptops h2 {
   margin-bottom: var(--mb-1);
 }
-
-
-/* FOOTER */
 
 
 /* Media querys */
@@ -198,28 +180,14 @@ header {
     width: 95%;
     /* vervangen door calc */
   }
+
   .laptop {
     width: calc(100% / 2);
   }
+
   .row{
     padding: 0 8px;
   }
-
-  
-}
-
-@media (min-width: 768px) { 
-  .laptop {
-    width: calc(100% / 3);
-  }
-}
-
-@media (min-width: 1000px) { 
-  .laptop {
-    width: calc(100% / 4);
-  }
-
-
 }
 
 .hero {
@@ -258,11 +226,6 @@ iframe {
  width: 6em;
 }
 
-
-
-
-
-
 .remote-control {
   text-align: center;
   background-color: var(--grey);
@@ -273,7 +236,8 @@ iframe {
   place-items: center;
   width: min-content;
 }
-.remote__title{
+
+.remote__title {
   font-size: 20px;
 }
 
@@ -283,7 +247,7 @@ iframe {
   gap: 1em;
 }
 
-.remote-control__buttons button{
+.remote-control__buttons button {
   font-size: 1rem;
 }
 
@@ -317,4 +281,16 @@ iframe {
   content: url("/right-arrow.svg");
   display: inline-block;
   width: 1em;
+}
+
+@media (min-width: 768px) { 
+  .laptop {
+    width: calc(100% / 3);
+  }
+}
+
+@media (min-width: 1000px) { 
+  .laptop {
+    width: calc(100% / 4);
+  }
 }
