@@ -155,8 +155,18 @@ header {
   justify-content: center;  
 }
 
-.laptop__img--wrapper {
+.laptop__github-img {
   position: absolute;
+  width: 5em;
+  top: 1em;
+  border-radius: 5px;
+}
+
+.laptop__img--wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
 }
 
 .remote__img{
@@ -165,7 +175,7 @@ header {
 
 .laptop__img{
   width: 100%;
-  transition: all 300ms;
+  
 }
 
 #laptops h2{
