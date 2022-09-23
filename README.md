@@ -12,11 +12,9 @@
   * [Licentie](#licentie)
   
 ## Beschrijving
-In onze squadpage kan je visitekaartjes van studenten zien wanneer op de volgende en vorige knoppen van de afstandsbediening drukt. We wouden ook dat je een student kan kiezen wanneer je op een laptop klikt, maar dat was niet gelukt.
-
-### link
 [🌐 https://your-tribe-for-life-squad-page-flax.vercel.app/](https://your-tribe-for-life-squad-page-flax.vercel.app/)
 
+In onze squadpage kan je visitekaartjes van studenten zien wanneer op de volgende en vorige knoppen van de afstandsbediening drukt. We wouden ook dat je een student kan kiezen wanneer je op een laptop klikt, maar dat was niet gelukt.
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
