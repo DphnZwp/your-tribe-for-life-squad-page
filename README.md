@@ -1,6 +1,5 @@
 # 🧗🏽 Your Tribe for Life - Squad Page
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-[https://your-tribe-for-life-squad-page-flax.vercel.app/](https://your-tribe-for-life-squad-page-flax.vercel.app/)
 
 ## Inhoudsopgave
 
@@ -12,7 +11,8 @@
   * [Licentie](#licentie)
   
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+
+[https://your-tribe-for-life-squad-page-flax.vercel.app/](https://your-tribe-for-life-squad-page-flax.vercel.app/)
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
