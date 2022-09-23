@@ -47,7 +47,6 @@ a {
 
 img {
   max-width: 100%;
-  /* height: auto; */
 }
 
 button {
@@ -168,17 +167,14 @@ header {
   margin-bottom: var(--mb-1);
 }
 
-
 /* Media querys */
 @media (max-width: 768px) {
   header {
-    /* height: 68px; */
     padding-top: var(--mb-0-25);
   }
 
   .screen__img--container {
     width: 95%;
-    /* vervangen door calc */
   }
 
   .laptop {
@@ -197,7 +193,7 @@ header {
 
 iframe {
   width: 100%;
-  height: 40em;
+  height: 44em;
 }
 
 /* Remote */
