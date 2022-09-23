@@ -1,6 +1,6 @@
 # 🧗🏽 Your Tribe for Life - Squad Page
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
---Ontwerp en maak met een team een overzicht van jouw tribe met alle online visitekaartjes, op basis van een headless CMS en een framework.--
+[https://your-tribe-for-life-squad-page-flax.vercel.app/](https://your-tribe-for-life-squad-page-flax.vercel.app/)
 
 ## Inhoudsopgave
 
