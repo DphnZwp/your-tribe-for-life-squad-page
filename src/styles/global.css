@@ -227,6 +227,7 @@ iframe {
 }
 
 .remote-control {
+  padding: 1em;
   text-align: center;
   background-color: var(--grey);
   border: 3px solid var(--black);
