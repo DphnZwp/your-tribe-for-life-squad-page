@@ -11,10 +11,8 @@
   * [Licentie](#licentie)
   
 ## Beschrijving
-
-[https://your-tribe-for-life-squad-page-flax.vercel.app/](https://your-tribe-for-life-squad-page-flax.vercel.app/)
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+[🌐 https://your-tribe-for-life-squad-page-flax.vercel.app/](https://your-tribe-for-life-squad-page-flax.vercel.app/)
+![screencapture-your-tribe-for-life-squad-page-flax-vercel-app-2022-09-23-13_00_48](https://user-images.githubusercontent.com/69635977/191946938-88206790-96b2-4251-8411-5e5d988578f8.png)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
