@@ -1,31 +1,26 @@
 <script>
-  // import { goto } from "$app/navigation"
-  export let data;
-  console.log(data.documents);
+  export let data
+  console.log(data.documents)
 
-  const images = data.documents;
+  const images = data.documents
 
-  let currentSlideItem = 0;
+  let currentSlideItem = 0
 
   const nextImage = () => {
-    currentSlideItem = (currentSlideItem + 1) % images.length;
-    // goto('/')
-  };
+    currentSlideItem = (currentSlideItem + 1) % images.length
+  }
 
   const prevImage = () => {
     if (currentSlideItem != 0) {
-      currentSlideItem = (currentSlideItem - 1) % images.length;
+      currentSlideItem = (currentSlideItem - 1) % images.length
     } else {
-      currentSlideItem = images.length - 1;
-      // goto('/')
+      currentSlideItem = images.length - 1
     }
-  };
+  }
 
   const consoleFunction = () => {
     console.log(data.documents)
   }
-
-  const currentImage = () => {};
 </script>
 
 <main>
@@ -53,23 +48,6 @@
           Dit zijn de <span class="text--purple">FDND Studenten</span>
         </h2>
         <ul class="laptop__list">
-          <!-- <li class="laptop">
-            <div class="remote__container">
-              <h2 class="remote__title">FDND Studenten afstandsbediening</h2>
-              <div class="btn__container">
-                <button class="remote__btn" on:click={() => prevImage()}>
-                  <img src="/left-arrow.svg" alt="" class=""/>
-                  Vorige
-                </button>
-                <button class="remote__btn" on:click={() => nextImage()}>
-                  Volgende
-                  <img src="/right-arrow.svg" alt="" />
-                </button>
-              </div>
-              <img src="/philips-logo.svg" alt="" class="remote__img" />
-            </div>
-          </li> -->
-
           <li class="laptop remote ">
             <div class="remote-control">
               <div class="max-width">
@@ -94,7 +72,7 @@
           </li>
 
           {#each data.documents as data}
-            <li class="laptop" on:click={() => consoleFunction(data.documents)}>
+            <li class="laptop" on:click={() => consoleFunction(data.uid)}>
               <div class="laptop__img--wrapper">
                 <img src="./img/laptop-blue.svg" alt="" class="laptop__img" />
                 <img
@@ -110,5 +88,4 @@
       </div>
     </div>
   </section>
-  <!-- <pre>{JSON.stringify(data.documents, null, 2)}</pre> -->
 </main>
